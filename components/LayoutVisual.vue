@@ -70,7 +70,7 @@ export default {
 .visual-home {
   background-image: url('~@/assets/img/visual-home.jpg');
 }
-.visual-consept {
+.visual-concept {
   background-image: url('~@/assets/img/menu01.jpg');
 }
 .visual-shop {
