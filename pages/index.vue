@@ -18,41 +18,8 @@
         />
         <base-button name="メニューの一覧" link="/mane/" />
       </div>
-      <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
-        お知らせ
-      </h2>
-      <div class="mb-20">
-        <div
-          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
-        >
-          <a href="/information/detail" class="block px-4 py-3">
-            <time class="text-gray-700 text-base mb-1 block md:w-1/6"
-              >2021.01.20</time
-            >
-            <div class="md:w-10/12">お知らせ１</div>
-          </a>
-        </div>
-        <div
-          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
-        >
-          <a href="/information/detail" class="block px-4 py-3">
-            <time class="text-gray-700 text-base mb-1 block md:w-1/6"
-              >2021.01.20</time
-            >
-            <div class="md:w-10/12">お知らせ2</div>
-          </a>
-        </div>
-        <div
-          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
-        >
-          <a href="/information/detail" class="block px-4 py-3">
-            <time class="text-gray-700 text-base mb-1 block md:w-1/6"
-              >2021.01.20</time
-            >
-            <div class="md:w-10/12">お知らせ3</div>
-          </a>
-        </div>
-      </div>
+      <base-heading>お知らせ</base-heading>
+      <layoutinformation-list />
       <base-button name="お知らせ一覧" link="/information/" />
     </div>
 
