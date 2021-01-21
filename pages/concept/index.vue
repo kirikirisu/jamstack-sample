@@ -26,3 +26,20 @@
     </div>
   </layout-wrapper>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'コンセプト',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'コンセプトページの説明'
+        }
+      ],
+    }
+  },
+}
+</script>

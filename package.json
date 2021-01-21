@@ -1,5 +1,6 @@
 {
   "name": "jamstack-sample",
+  "description": "jamstackのサンプルサイト",
   "version": "1.0.0",
   "private": true,
   "scripts": {

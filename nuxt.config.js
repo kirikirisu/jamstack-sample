@@ -4,7 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'jamstack-sample',
+    titleTemplate(title){
+      return (title ? `${title} |` : '') + 'jamstack-sample'
+    },
     htmlAttrs: {
       lang: 'en',
     },
@@ -38,4 +40,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  generate: { 
+    fallback: true
+  }
 }
