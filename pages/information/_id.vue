@@ -18,7 +18,6 @@
       <div class="mb-20" v-html="item.body"></div>
       <base-button name="お知らせへ戻る" link="/information/" />
     </div>
-    {{ item }}
   </layout-wrapper>
 </template>
 
