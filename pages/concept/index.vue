@@ -36,8 +36,8 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'コンセプトページの説明'
-        }
+          content: 'コンセプトページの説明',
+        },
       ],
     }
   },

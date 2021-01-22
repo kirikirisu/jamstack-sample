@@ -1,10 +1,12 @@
+const { API_KEY, API_URL } = env.prosess; 
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate(title){
+    titleTemplate(title) {
       return (title ? `${title} |` : '') + 'jamstack-sample'
     },
     htmlAttrs: {
@@ -41,7 +43,14 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  generate: { 
-    fallback: true
+  generate: {
+    fallback: true,
+  },
+
+  publicRuntimeConfig: {
+    apiUrl: API_URL,
+  },
+  privateRuntimeConfig: {
+    apiKey: API_KEY,
   }
 }
